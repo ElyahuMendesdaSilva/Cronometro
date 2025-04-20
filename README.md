@@ -2,13 +2,17 @@
 
 Projeto de cronômetro digital interativo desenvolvido com **HTML**, **CSS** e **JavaScript** puro.
 
-## ✨ Funcionalidades
+##  Funcionalidades
 
-- ⌨️ Edição manual de horas, minutos e segundos  
-- ▶️ Início e pausa da contagem  
-- ✏️ Redefinir tempo com um clique  
-- 🔲 Suporte a modo **fullscreen**  
-- ⚠️ Alerta visual nos últimos 5 segundos (efeito de piscar a tela)
+-  Edição manual de horas, minutos e segundos  
+-  Início e pausa da contagem  
+-  Redefinir tempo com um clique  
+-  Suporte a modo **fullscreen**  
+-  Alerta visual nos últimos 5 segundos (efeito de piscar a tela)
 
-## 📁 Estrutura de Arquivos
+##  Estrutura de Arquivos
 
+cronometro/
+┣  index.html
+┣ 📄 style.css
+┣ 📄 main.js
