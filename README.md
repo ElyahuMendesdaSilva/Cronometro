@@ -13,6 +13,6 @@ Projeto de cronômetro digital interativo desenvolvido com **HTML**, **CSS** e *
 ##  Estrutura de Arquivos
 
 cronometro/
-┣  index.html
-┣ 📄 style.css
-┣ 📄 main.js
+┣  index.html\n
+┣ 📄 style.css\n
+┣ 📄 main.js\n
