@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Oxanium:wght@200..800&display=swap');
+
+* {
+    font-family: "Oxanium", sans-serif;
+    color: white;
+}
+
+body,html{
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #131313;
+}
+
+.GUI{
+    width: 500px;
+    height: 202px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.GUI-regresiva{
+    width: 500px;
+    height: 212px;
+    display: none;
+    flex-direction: column;
+}
+
+.ct-cronometro-numeros{
+    width: 100%;
+    height: 132px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.inputs-cronometro{
+    width: 100%;
+    height: 120px;
+    border: none;
+    text-align: center;
+    background-color: transparent;
+    font-size: 50px;
+}
+
+.sefinal{
+    width: 100%;
+    height: 160px;
+    border: none;
+    text-align: center;
+    background-color: transparent;
+    font-size: 80px;
+}
+
+.inputs-cronometro::-webkit-outer-spin-button,
+.inputs-cronometro::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+
+.sepracao-cronometro{
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-size: 50px;
+}
+
+.controles-button{
+    width: 100%;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.button{
+    user-select: none;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    border: 1px white solid;
+    border-radius: 50%;
+}

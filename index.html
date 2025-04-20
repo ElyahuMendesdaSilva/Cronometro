@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" />
+    <title>Cronometro</title>
+</head>
+
+<body>
+    <div class="GUI">
+        <div class="ct-cronometro-numeros">
+            <input type="text" maxlength="2" pattern="([0-9]{3})" class="inputs-cronometro" id="hr" value="00">
+            <labe class="sepracao-cronometro">:</labe>
+            <input type="text" maxlength="2" pattern="([0-9]{3})" class="inputs-cronometro" id="mi" value="00">
+            <labe class="sepracao-cronometro">:</labe>
+            <input type="text" maxlength="2" pattern="([0-9]{3})" class="inputs-cronometro se" value="00">
+        </div>
+        <div class="controles-button">
+            <span class="button">
+                <span class="material-symbols-outlined" id="full">
+                    fullscreen
+                </span>
+            </span>
+            <span class="button" id="Edit">
+                <span class="material-symbols-outlined">
+                    edit
+                </span>
+            </span>
+            <span class="button" id="PAUSE">
+                <span class="material-symbols-outlined">
+                    stop
+                </span>
+            </span>
+            <span class="button" id="Start">
+                <span class="material-symbols-outlined">
+                    play_arrow
+                </span>
+            </span>
+        </div>
+    </div>
+    <div class="GUI-regresiva">
+        <div class="ct-cronometro-numeros">
+            <input type="number" class="inputs-cronometro sefinal" value="00">
+        </div>
+    </div>
+    <script src="main.js"></script>
+</body>
+
+</html>
