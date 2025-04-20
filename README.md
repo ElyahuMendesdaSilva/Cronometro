@@ -9,6 +9,3 @@ Projeto de cronômetro digital interativo desenvolvido com **HTML**, **CSS** e *
 - Redefinir tempo com um clique  
 - Suporte a modo **fullscreen**  
 - Alerta visual nos últimos 5 segundos (efeito de piscar a tela)
-
-## Estrutura de Arquivos
-cronometro/ ├── index.html ├── style.css └── main.js
